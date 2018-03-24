@@ -1,0 +1,10 @@
+int main()
+{
+  int a;
+  int b;
+
+  function int moja -> a = 5;
+ 
+
+  function int (unsigned x) samomoja -> b = moja;
+}

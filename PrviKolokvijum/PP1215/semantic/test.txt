@@ -1,0 +1,6 @@
+int main()
+{
+  int a;
+  unsigned c;
+  for c = 3U downto 1U do a = 5;
+}

@@ -1,0 +1,10 @@
+int main()
+{
+  int a;
+  int c,v;
+ 
+  do
+    c = 5;
+  while( c < 3 );
+  
+}

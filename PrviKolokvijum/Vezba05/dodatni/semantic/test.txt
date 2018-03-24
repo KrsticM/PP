@@ -1,0 +1,15 @@
+int f(){
+}
+
+
+int main()
+{
+   int b;
+   int c;
+   int d;
+   int a = c = d + 5;
+
+   int z = f + 2;
+}
+
+

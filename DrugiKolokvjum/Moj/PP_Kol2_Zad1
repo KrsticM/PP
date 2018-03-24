@@ -1,0 +1,29 @@
+Generisanje koda - zadatak 
+#autor: Milos Krstic
+
+Prosiriti miniC iskaze for petljom koja izgleda ovako:
+
+"petljaj" <name> "u" "opsegu" "od" <lit> "do" <lit> ":"
+	<statement>
+	[ "prekid" ";" ]
+	[ "preskok" ";" ]
+
+gde je:
+<name> ime lokalne promenljive ili parametra
+<lit>  literal
+
+<name> mora biti deklarisano pre upotrebe
+<name> i <lit1> treba da budu istog tipa
+<lit1> i <lit2> treba da budu istog tipa
+
+Napomena: Petlje mogu biti i ugnjezdene.
+
+Primer:
+	
+int main()
+{
+    int a;
+    int b;
+	petljaj a u opsegu od 2 do 5:
+		b = b + a;
+}

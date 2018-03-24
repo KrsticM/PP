@@ -1,0 +1,7 @@
+int main()
+{
+ int a;
+ int n;
+ for a=1:n
+    a = 5;
+}

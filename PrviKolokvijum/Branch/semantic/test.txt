@@ -1,0 +1,9 @@
+int main()
+{
+   int a;
+   int x;
+   branch ( a ; 2U, 3, 4)
+	first x = 1;
+	second x = 2;
+	third x = 3;
+}

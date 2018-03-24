@@ -1,0 +1,27 @@
+int main() {
+    int x;
+    int y;
+
+    x = 2;
+    y = 3;
+    {
+      int x;        // nova promenljiva x (lokalna za ovaj blok)
+      int z;
+      x = 5;
+
+      y = x + y;    // y = 8; 
+                    // koristi se unutrasnja promenljiva x
+                    // i spoljasnja promenljiva y
+
+      {
+         int x;
+ 	 int y;
+   	 int z;
+      }
+
+
+
+    }
+    return x + y;   // 10 (spoljasnji x i y)
+                        // error - z se ne vidi van bloka
+  }

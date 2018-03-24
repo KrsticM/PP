@@ -1,0 +1,14 @@
+int f(){
+  int milica;
+  int mica = 0;
+}
+
+int main(){
+  int a;
+  int b = 5;
+  int c;
+
+  a = c;
+
+  c = f();
+}

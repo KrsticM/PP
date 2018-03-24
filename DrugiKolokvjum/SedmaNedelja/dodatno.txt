@@ -1,0 +1,29 @@
+Zadatak 3
+
+Napraviti generisanje koda za postinkrement unutar numeričkih izraza.
+Primer:
+
+int main() {
+    int x;
+    int y;
+    x = 3;
+    y = x++ + x++ + 42;
+    return x + y;
+}
+
+Izlazni kod treba da bude 53. Generisanje operacija za inkrement treba
+da bude nakon što se završila obrada kompletnog numeričkog izraza.
+
+Izgenerisani kod za y = x++ + x++:
+
+    ADDS    -4(%14),-4(%14),%0  //num_exp
+    ADDS    %0,$42,%0           //num_exp
+    ADDS    -4(%14),$1,-4(%14)  //++
+    ADDS    -4(%14),$1,-4(%14)  //++
+    MOV      %0,-8(%14)         //assign
+
+Realizovati semantičku proveru: 
+postinkrement operator može da se primeni samo na 
+promenljive (lokalne i globalne) i parametre.
+
+
